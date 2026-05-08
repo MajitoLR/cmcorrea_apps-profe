@@ -137,8 +137,7 @@ st.markdown("""
 </div>
 
 <div class="subtitle">
-Explora mis proyectos y aplicaciones desarrolladas con Inteligencia Artificial, 
-visión computacional, procesamiento de lenguaje natural y experiencias interactivas.
+Explora mis proyectos y aplicaciones desarrolladas en clase.
 </div>
 
 <div class="divider"></div>
@@ -150,11 +149,11 @@ visión computacional, procesamiento de lenguaje natural y experiencias interact
 
 with st.sidebar:
 
-    st.subheader("💗 Aplicaciones con Inteligencia Artificial")
+    st.subheader("💗 Portafolio Maria José Larrea")
 
     parrafo = (
-        "La inteligencia artificial permite mejorar la toma de decisiones con el uso de datos, "
-        "automatizar tareas rutinarias y proporcionar análisis avanzados en tiempo real."
+        "Aquí encontrarás los trabajos realizados en clase "
+        "y todos los ejercios enseñados por el profesor a través de cada link."
     )
 
     st.markdown(f'<div class="sidebar-text">{parrafo}</div>', unsafe_allow_html=True)
@@ -170,7 +169,7 @@ st.markdown("""
 <h3>🌸 Recursos y ejercicios prácticos</h3>
 
 <p class="card-text">
-Aquí puedes encontrar páginas, actividades y ejercicios relacionados con Inteligencia Artificial.
+Aquí puedes encontrar páginas, actividades y ejercicios.
 </p>
 </div>
 """, unsafe_allow_html=True)
@@ -220,14 +219,14 @@ with col1:
 
     crear_card(
         "Detector de Gestos",
-        "txt_to_audio2.png",
+        "detector_gestos.png",
         "Aplicación interactiva enfocada en la detección y reconocimiento de gestos mediante inteligencia artificial.",
         "https://detecciondegestosprofe-w3acjxoexzrkszjfdbrpxx.streamlit.app/"
     )
 
     crear_card(
         "Audio Libro Para Niños",
-        "txt_to_audio.png",
+        "Audio_libro.png",
         "Experiencia multimedia diseñada para niños con interacción de audio e imágenes inteligentes.",
         "https://interfazmultimodalprofemj.streamlit.app/",
         "🌸"
@@ -235,7 +234,7 @@ with col1:
 
     crear_card(
         "Mi Primera App",
-        "OIG5.jpg",
+        "mi_primera_app.png",
         "Introducción práctica al uso de modelos entrenados y aplicaciones inteligentes.",
         "https://introduccionmajo.streamlit.app/",
         "🎀"
@@ -249,14 +248,14 @@ with col2:
 
     crear_card(
         "Mi Primera App Introducción 2",
-        "OIG8.jpg",
+        "mi_primera_app_intro2.png",
         "Aplicación enfocada en la conversión de voz a texto utilizando inteligencia artificial.",
         "https://introcopiaprofemj.streamlit.app/"
     )
 
     crear_card(
         "Reconocimiento Optico De Carácteres Imagen",
-        "data_analisis.png",
+        "reconocimiento_optico_imag.png",
         "Herramienta orientada al reconocimiento inteligente de texto y análisis automatizado.",
         "https://audioimagenprofe.streamlit.app/",
         "✨"
@@ -264,7 +263,7 @@ with col2:
 
     crear_card(
         "Reconocimiento Optico de Carácteres Tomar Foto",
-        "OIG3.jpg",
+        "reconocimiento_optico_foto.png",
         "Convierte imágenes capturadas en texto mediante reconocimiento óptico avanzado.",
         "https://imagentextoprofe.streamlit.app/",
         "🌷"
@@ -278,7 +277,7 @@ with col3:
 
     crear_card(
         "Análisis de Sentimiento",
-        "Chat_pdf.png",
+        "analisis_sentimiento.png",
         "Analiza emociones y opiniones en textos utilizando técnicas de inteligencia artificial.",
         "https://sentimientoprofemjl.streamlit.app/"
     )
@@ -293,7 +292,7 @@ with col3:
 
     crear_card(
         "Demo de TF-IDF con Preguntas y Respuestas",
-        "OIG6.jpg",
+        "preguntas_respuestas.png",
         "Sistema interactivo de preguntas y respuestas basado en procesamiento de lenguaje natural.",
         "https://tf-idfprofemjl.streamlit.app/",
         "🎀"
